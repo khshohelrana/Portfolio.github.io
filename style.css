@@ -1,0 +1,62 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'inter' !important;
+}
+
+.nav-link {
+    
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #000000;
+    margin-left: 30px;
+
+}
+
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:lightgrey ;
+    color: black;
+    font-size: 30px;
+ border-radius: 50px;
+    padding: 12px;
+   display: inline-block;
+   margin-bottom: 70px;
+}
+.card:hover .circle{
+background-color: black;
+color: white;
+transition: 0.5s;
+
+}
+
+
+
+
+
+.card{
+    border-radius: 30px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.contatctSection{
+
+background-color: rgb(227, 231, 235);
+
+}
