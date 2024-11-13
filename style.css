@@ -60,3 +60,23 @@ transition: 0.5s;
 background-color: rgb(227, 231, 235);
 
 }
+
+.rounded-navbar {
+    border-radius: 50px; 
+    overflow: hidden; 
+}
+.first-section{
+    border-radius: 50px; 
+    overflow: hidden;
+
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
