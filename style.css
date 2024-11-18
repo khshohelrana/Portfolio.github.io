@@ -8,6 +8,7 @@ body{
     font-family: 'inter' !important;
 }
 
+
 .nav-link {
     
     font-family: 'inter';
@@ -28,11 +29,30 @@ body{
     background-color:lightgrey ;
     color: black;
     font-size: 30px;
- border-radius: 50px;
+    border-radius: 50px;
     padding: 12px;
    display: inline-block;
    margin-bottom: 70px;
 }
+
+#typewriter-container {
+    position: relative;
+    overflow: hidden; /* Ensures text won't overflow the container */
+    width: 100%; /* Adjust as needed */
+  }
+  
+  #typewriter {
+    display: inline-block;
+    position: relative;
+    white-space: nowrap; /* Prevents text from wrapping */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+    opacity: 0;
+    transform: translateX(-100%); /* Start off-screen (left) */
+    transition: transform 1s ease-out, opacity 1s ease-out;
+  }
+  
+
 .card:hover .circle{
 background-color: black;
 color: white;
@@ -55,6 +75,39 @@ transition: 0.5s;
     z-index: 2;
 }
 
+h1.titleUnderline {
+    position: relative; /* Required to position the underline */
+    
+   
+  }
+  
+  h1.titleUnderline::after {
+    content: ""; /* Creates the underline */
+    position: absolute;
+    width: 20%; /* Makes underline match text width */
+    height: 3.5px; /* Thickness of the underline */
+    background-color: red; /* Underline color */
+    bottom: 40px; /* Adjust the position of the underline */
+    left: 40%; /* Start underline from the left edge */
+  }
+
+
+  
+  h2.titleUnderline {
+    position: relative; /* Required to position the underline */
+    
+   
+  }
+  
+  h2.titleUnderline::after {
+    content: ""; /* Creates the underline */
+    position: absolute;
+    width: 20%; /* Makes underline match text width */
+    height: 3.5px; /* Thickness of the underline */
+    background-color: red; /* Underline color */
+    bottom: 40px; /* Adjust the position of the underline */
+    left: 40%; /* Start underline from the left edge */
+  }
 .contatctSection{
 
 background-color: rgb(227, 231, 235);
@@ -78,5 +131,119 @@ footer {
     text-align: center;
     border-radius: 10px;
 }
+.bg-lightt{
+    background-color: #fff;
+    border: 1.5px solid darkslategray;
+}
+
+.mug
+{
+
+    border: 2px solid rosybrown;
+    border-radius: 30px;
+      
+}
+
+
+
+
+
+
+
+
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+body.dark-mode .bg-lightt,
+body.dark-mode .navbar,
+body.dark-mode .header,
+body.dark-mode .footer,
+body.dark-mode .section,
+body.dark-mode .div, 
+body.dark-mode  .services,
+body.dark-mode  .card,
+body.dark-mode  .contatct,
+body.dark-mode  .forom{
+    background-color: #1e1e1e;
+    color: white;
+   
+}
+
+body.dark-mode .bg-lightt,
+body.dark-mode  .card,
+body.dark-mode  .mug
+{
+
+    border: 1.5px solid #f8f9fa;
+      
+}
+body.dark-mode .mog{
+    border: 1px solid gray;
+}
+
+
+section.dark-mode
+nav.dark-mode
+div.darl-mode
+ {
+    background-color: #1e1e1e;
+    color: white;
+    
+}
+
+
+body.dark-mode .navbar {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+}
+
+body.dark-mode .navbar .navbar-brand {
+    color: #f8f9fa; /* Light text for brand */
+}
+
+body.dark-mode .navbar .nav-link {
+    color: #f8f9fa; /* Light text for links */
+    background-color: #343a40; /* Background for nav links */
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+body.dark-mode .navbar .nav-link:hover {
+    background-color: #495057; /* Slightly lighter background */
+    color: darkcyan; /* Pure white on hover */
+}
+
+body.dark-mode .navbar-toggler {
+    background-color: #343a40; /* Dark button background */
+    border: 1px solid #f8f9fa; /* Light border */
+}
+
+body.dark-mode .navbar .btn {
+    background-color: #343a40; /* Dark button background */
+    color: #f8f9fa; /* Light text */
+    border: 1px solid #f8f9fa; /* Light border */
+}
+
+body.dark-mode .navbar .btn:hover {
+    background-color: #495057; /* Lighter hover for the button */
+    color: #ffffff;
+}
+
+body.dark-mode .justShow1{
+
+    border-radius: 10px;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
 
 
